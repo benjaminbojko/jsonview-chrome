@@ -1,5 +1,6 @@
 body {
-  font-family: sans-serif;
+  /*font: 14px/1.4 'Courier New', monospace, sans-serif;*/
+  font: 12px/1.1 monospace, sans-serif;
 }
 
 .prop {
@@ -49,12 +50,12 @@ li:last-child:after {
 }
 
 .errormessage {
-  font-family: monospace;  
+  /*font-family: monospace;  */
 }
 
 #json {
-  font-family: monospace;
-  font-size: 1.1em;
+  /*font-family: monospace;*/
+  /*font-size: 1.1em;*/
 }
 
 ul {
@@ -64,7 +65,7 @@ ul {
 }
 
 h1 {
-  font-size: 1.2em;
+  /*font-size: 1.2em;*/
 }
 
 /* Indent JSON when there's a callback. */
@@ -73,6 +74,6 @@ h1 {
 }
 
 .callback {
-  font-family: monospace;
+  /*font-family: monospace;*/
   color: #A52A2A;
 }

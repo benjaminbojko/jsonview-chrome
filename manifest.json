@@ -1,12 +1,12 @@
 {
-   "content_scripts": [ {
-      "js": [ "jsonview.js" ],
-      "matches": [ "http://*/*.json*", "file:///*/*.json*" ]
-   } ],
+	"browser_action": {
+	 "default_icon": "icon19.png"
+	},
+	"background_page": "backgroundpage.html",
 	"icons": { "48": "logo48.png",
-	          "128": "logo128.png" },
-   "description": "Pretty-prints JSON data in the browser.",
-   "key": "supfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDDhKAwhHMEEr5pw/QvMhtfEgh5AOX7v39DYK0l48jxvpjl2syoYsZxkC57n0nORQQh8ndLuNW8KZP4R9AkEFhXctAen28e6MKDBGg0TJaTtWkmB8Wc2sN/LNq6iJeFIebkID5TAVuqqfTpO3NOo9V+6o+bH85j8u78YOb4ZZ1U8wIDAQAB",
-   "name": "JSONView",
-   "version": "1.0"
+				 "128": "logo128.png" },
+	"description": "Pretty-prints JSON data in the browser.",
+	"name": "JSONView - Benjamin Bojko's Fork",
+	"version": "1.2",
+	"permissions": ["<all_urls>", "tabs"]
 }
